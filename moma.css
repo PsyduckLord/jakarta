@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#container{
+    width: 1280px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+#header{
+    display: flex;
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+#left-header, #right-header{
+    flex-grow: 1;
+}
+
+#right-header{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#right-header-div{
+    border: none;
+    border-bottom: solid 1px black;
+}
+
+#navigation ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-box{
+    background-color: skyblue;
+}
+
+#right-box{
+    background-color: sandybrown
+}
+
+#content{
+    display: flex;
+    line-height: 20px;
+}
+
+.content-group{
+    width: 640px;
+    height: 400px;
+    padding: 50px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.box1{
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.box2{
+    font-size: 60px;
+    font-weight: 100;
+}
+#text1{
+    margin-top: 87px;
+}
+.text-group1{
+    font-weight: 100;
+    line-height: 5px;
+    font-size: 30px;
+}
+
+#sales{
+    width: 100px;
+    border: solid black 4px;
+    font-weight: 100;
+    padding: 1px 20px;
+}
