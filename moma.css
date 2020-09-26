@@ -1,94 +1,198 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
 }
-
 a:link{
-    color: black;
+    color:black;
     text-decoration: none;
 }
-
 a:hover{
     text-decoration: underline;
 }
 
+
 #container{
-    width: 1280px;
-    margin: 0px auto;
+    width:1280px;
+    margin:0px auto;
     margin-top: 20px;
 }
 
 #header{
     display: flex;
-    width: 100%;
-    margin-bottom: 35px;
-    margin-top: 35px;
+    width:100%;
+    margin-bottom: 40px;
 }
 
 #left-header, #right-header{
-    flex-grow: 1;
+    flex-grow:1;
 }
 
 #right-header{
-    text-align: right;
     display: flex;
     justify-content: flex-end;
 }
 
-#right-header-div{
-    border: none;
-    border-bottom: solid 1px black;
+#right-header div{
+    margin-left:30px;
+}
+
+#right-header input{
+    border:none;
+    border-bottom:solid 1px black;
+}
+
+#navigation{
+    margin-bottom: 20px;
 }
 
 #navigation ul{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     display: flex;
     justify-content: space-between;
 }
 
-#left-box{
-    background-color: skyblue;
+#navigation li{
+    display: inline-block;
+    margin: 0px 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-#right-box{
-    background-color: sandybrown
+#featured img{
+    max-width: 100%;
 }
 
-#content{
+#featured-products{
+    margin-top:20px;
     display: flex;
-    line-height: 20px;
+    justify-content: space-between;
 }
 
-.content-group{
-    width: 640px;
-    height: 400px;
-    padding: 50px;
-    margin-top: 20px;
-    font-weight: lighter;
+.featured-product-box{
+    text-align: center;
 }
 
-.box1{
-    font-size: 70px;
-    font-weight: 100;
+.featured-product-box h3{
+    font-weight: 500;
 }
 
-.box2{
-    font-size: 60px;
-    font-weight: 100;
-}
-#text1{
-    margin-top: 87px;
-}
-.text-group1{
-    font-weight: 100;
-    line-height: 5px;
-    font-size: 30px;
+#best-sellers{
+    border-top:solid 1px gray;
+    border-bottom:solid 1px gray;
+    margin: 20px 0;
+    padding: 20px 0;
+    text-align: center;
 }
 
-#sales{
-    width: 100px;
-    border: solid black 4px;
-    font-weight: 100;
-    padding: 1px 20px;
+#best-sellers-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#best-sellers-container img{
+    max-width: 80%;
+}
+
+#shipping{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding-bottom:40px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+#shipping a:link{
+    color:white;
+    padding:8px 20px;
+    border:solid 1px white;
+
+}
+
+#footer{
+    background-color: lightgrey;
+    padding: 40px 0;
+}
+
+#newsletter{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#newsletter input{
+    width: 400px;
+    height: 40px;
+    border:none;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.words{
+    text-align: center;
+}
+
+.newsletter-form{
+    background-color: white;
+    width:480px;
+    padding: 10px;
+}
+
+.newsletter-form button{
+    background-color: white;
+    border: none;
+}
+
+#social-media ul{
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#social-media li{
+    display: inline;
+}
+
+#learn a:visited {
+    color: white;
+}
+
+a{
+    color: black;
+}
+
+
+.links li{
+    list-style: none;
+    font-weight: 700;
+    max-width: 170px;
+    padding-right: 50px;
+    line-height: 25px;
+    margin-top: 5px;
+}
+
+#linkcontain{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    list-style: none;
+}
+
+#copyright-contain div{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#visitmoma a{
+display: flex;
+justify-content: center;
+text-decoration: none;
 }
