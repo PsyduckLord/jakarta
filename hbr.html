@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a:link{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #666666;
+            text-decoration: underline;
+        }
+
+        a:visited{
+            color: black;
+        }
+
+        #header{
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        #search, #cart{
+            flex-grow: 1;
+        }
+        #logo{
+            flex-grow: 3;
+            text-align: center;
+        }
+
+        #cart{
+            text-align: right;
+        }
+
+        #cart li{
+            list-style: none;
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+
+        #cart img{
+            padding-right: 50px;
+        }
+
+        #navigation{
+            border-top: solid lightgray 1px;
+            border-bottom: solid lightgray 1px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .navigation-text{
+        padding: 10px 0px;}
+
+        .navigation-text a:link{
+        color: black;
+        font-size: 17px;
+        font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="search">
+            <form>
+                <div>
+                    <input type="text" placeholder="Search HBR product">
+                    <button type="submit">S</button>
+                </div>
+            </form>
+        </div>
+        <div id="logo">
+            <img src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/nav-hbr-logo_1570720324__61965.original.png" width="70" alt="">
+            <img src="https://cdn11.bigcommerce.com/s-yneuaokjib/stencil/38d20a80-df8f-0138-a9b8-0242ac110007/e/33777490-bd12-0137-07b1-0242ac110005/img/custom/nav-store-logo.png" width="120" alt="">
+        </div>
+        <div id="cart">
+            <ul>
+                <li><img src="https://cdn11.bigcommerce.com/s-yneuaokjib/stencil/38d20a80-df8f-0138-a9b8-0242ac110007/e/33777490-bd12-0137-07b1-0242ac110005/img/custom/img-cart-0620.png" width="20" alt=""></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
+
+        </div>
+    </div><!----the end of the header-->
+    <div id="navigation">
+        <div class="navigation-text">
+            <a href="#">Collections</a>
+        </div>
+        <div class="navigation-text">
+            <a href="#">Books</a>
+        </div>
+        <div class="navigation-text">
+            <a href="#">Tools</a>
+        </div>
+        <div class="navigation-text">
+            <a href="#">Case studies</a>
+        </div>
+        <div class="navigation-text">
+            <a href="#">Articles</a>
+        </div>
+        <div class="navigation-text">
+            <a href="#">Magazine Issues</a>
+        </div>
+        <div class="navigation-text">
+            <a href="#">Search by Subject</a>
+        </div>
+        <div class="navigation-text">
+            <a href="#">HBR Home</a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
