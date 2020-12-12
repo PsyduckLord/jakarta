@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,31 +6,304 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        body{
+            font-size:90%;
+        }
+        a:link, a:visited{
+            color:black;
+        }
+        #header{
+            box-shadow:4px 0 20px lightgray;
+        }
+        p{
+            color: rgb(138, 138, 138);
+        }
+        .box{
+            width: 200px;
+        }
+        .button-link{
+            width: 200px;
+            border: solid 1px lightgray;
+            padding: 10px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+        .button-link:hover{
+            background-color: lightgrey;
+        }
+    </style>
 </head>
-<style>
-    header{
-        box-shadow: 8px 0 25px lightgray;
-    }
-</style>
 <body>
-    <div id="header" class="border-bottom py-2">
+    <div id="header" class="border-bottom py-3">
         <div id="navigation" class="container">
-            <div class="row">
+            <div class="row align-middle">
                 <div class="col-sm-4">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1024px-Airbnb_Logo_B%C3%A9lo.svg.png" width="100">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1024px-Airbnb_Logo_B%C3%A9lo.svg.png" width="100" alt="">
                 </div>
-                <div class="col-sm-3" style="display: flex; justify-content: center;">
-                    <form action="" method="GET">
+                <div class="col-sm-4 text-center" >
+                    <form method="get">
                         <div>
                             <input type="text">
                         </div>
                     </form>
                 </div>
-                <div class="col-sm-5" style="display: flex; justify-content: right;">
-                    <ul>
+                <div class="col-sm-4 text-right">
+                    <ul class="list-unstyled">
                         <li><a href="">Become Host</a></li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div id="content" class="container mt-4">
+        <h3>The Artist's Experience</h3>
+        <div class="row mt-3">
+            <div class="col-sm-6">
+                <ul class="list-inline">
+                    <li class="list-inline-item">4.90  <span class="text-muted">(357)</span></li>
+                    <li class="list-inline-item text-muted">Superhost</li>
+                    <li class="list-inline-item"><a href="#">New York, United States</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 text-right">
+                <ul class="list-inline">
+                    <li class="list-inline-item">Share</li>
+                    <li class="list-inline-item">Save</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <img class="img-fluid" src="https://a0.muscache.com/im/pictures/103241544/5b858882_original.jpg?im_w=1200" alt="">
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img class="img-fluid" src="https://a0.muscache.com/im/pictures/103241337/a89b3d6c_original.jpg?im_w=720" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <img class="img-fluid" src="https://a0.muscache.com/im/pictures/103241544/5b858882_original.jpg?im_w=1200" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img class="img-fluid" src="https://a0.muscache.com/im/pictures/103241337/a89b3d6c_original.jpg?im_w=720" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <img class="img-fluid" src="https://a0.muscache.com/im/pictures/103241544/5b858882_original.jpg?im_w=1200" alt="">
+                    </div>
+                </div>
+            </div>
+        </div> <!-- images end -->
+
+        <div class="row mt-4 pt-4">
+            <div class="col-sm-8">
+                <div class="row border-bottom pb-3">
+                    <div class="col-sm-10">
+                        <h4>Private room in apartment hosted by Jeffrey</h4>
+                        <p>2 guests · 1 bedroom · 1 bed · 1 shared bath</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="https://a0.muscache.com/im/pictures/user/13e76e3d-b446-40ab-9d9a-a08e8b212f4e.jpg?im_w=240" class="rounded-circle" width="64" height="64" alt="">
+                    </div>
+                </div>
+                <div class="mt-4 border-bottom mb-4">
+                    <div>
+                        <h5>Enhanced Clean</h5>
+                        <p>This host commited to Airbnb's 5-step enhanced cleaning process. Learn More.</p>
+                    </div>
+                    <div>
+                        <h5>Jeffrey is a Superhost</h5>
+                        <p>Superhosts are  experienced, highly rated hosts who are committed to providing great stays for guests.</p>
+                    </div>
+                    <div>
+                        <h5>Cancellation policy</h5>
+                        <p>Add your trip dates to get the cancellation details for this stay</p>
+                    </div>
+                    <div>
+                        <h5>House Rules</h5>
+                        <p>There are no rules</p>
+                    </div>
+                    <div>
+                        <h5>Great location</h5>
+                        <p>100$ of recent guests gave the location a 5-star rating.</p>
+                    </div>
+                </div>
+                <div class="border-bottom">
+                    <p>Cozy, warm atmosphere, perfect for the traveler looking for a real NY experience.This reservation is for one person.If you want to book for 2 guests it is an extra $100 per night. Best neighborhood in midtown Manhattan for the best price. In the hub of Hell's Kitchen nightlife, restaurants, theaters, museums.</p>
+                    <h5>The Space</h5>
+                    <p>Bedroom is small, but very comforting. Kitchen is HUGE with tons of sunlight... Read more</p>
+                </div>
+                <div class="mt-4 border-bottom py-4 mb-4">
+                    <h4>Sleeping Arrangements</h4>
+                    <div class="border p-4 mt-4 box">
+                        <h5>Bedroom 1</h5>
+                        <p>1 double bed</p>
+                    </div>
+                </div>
+                <div class="py-4">
+                    <h4>Amenities</h4>
+                    <div class="row mb-4">
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2">Kitchen</li>
+                                <li class="mb-2">Breakfast</li>
+                                <li class="mb-2">Workspace</li>
+                                <li class="mb-2">Hairdryer</li>
+                                <li class="mb-2">Heating</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2">WiFi</li>
+                                <li class="mb-2">Iron</li>
+                                <li class="mb-2">Hangers</li>
+                                <li class="mb-2">Essentials</li>
+                                <li class="mb-2">AC</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="button-link" href="#">Show all 24 amenities</a>
+                    </div>
+                </div>
+                <div class="mt-4 border-top py-4 mb-4">
+                    <div>
+                        <h4>Select check-in date</h4>
+                        <p>Add your travel dates for exact pricing</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <table width="200">
+                            <thead>
+                                <h6>December 2020</h6>
+                                <tr>
+                                    <th>Su</th>
+                                    <th>Mo</th>
+                                    <th>Tu</th>
+                                    <th>We</th>
+                                    <th>Th</th>
+                                    <th>Fr</th>
+                                    <th>Sa</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                            </tr>
+                            <tr>
+                                <td>29</td>
+                                <td>30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    <div class="col-sm-4">
+                        <table width="200">
+                            <thead>
+                                <h6>January 2021</h6>
+                                <tr>
+                                    <th>Su</th>
+                                    <th>Mo</th>
+                                    <th>Tu</th>
+                                    <th>We</th>
+                                    <th>Th</th>
+                                    <th>Fr</th>
+                                    <th>Sa</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>1</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                            </tr>
+                            <tr>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td>31</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+            </div>
+        </div>
+            <div class="col-sm-4">
+
             </div>
         </div>
     </div>
